@@ -16,7 +16,7 @@ spec:
       containers:
         - name: backend
           # Jenkins updates this tag on every build via sed
-          image: sksaabiq123/ecommerce-backend:10
+          image: sksaabiq123/ecommerce-backend:11
           ports:
             - containerPort: 5000
           # Non-sensitive config from ConfigMap
